@@ -1,2 +1,191 @@
-/* Your styles here */
- 
+/************* 
+/************** GENERIC SETTINGS  */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+/* utility */
+.red-border {
+  border: 1px solid red;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5rem;
+}
+
+.button-orange {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f04c2f;
+  font-weight: bold;
+  color: white;
+  border: 0px;
+  border-radius: 0.3rem;
+}
+
+/************** 
+/************** HEADER */
+
+header {
+  height: 120px;
+  text-align: center;
+  background-color: black;
+}
+
+header .logo {
+  /* vertical-align: bottom; */
+  width: 250px;
+}
+
+/************** 
+*************** MAIN */
+
+/* SECTION: FIRST IMPRESSION */
+
+main .first-impression {
+  /* min-height: 30rem; */
+  text-align: center;
+  padding: 2rem;
+  background-image: url("../images/banner.jpg");
+}
+
+main .first-impression .title-contents {
+  color: lightblue;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+main .first-impression .statement {
+  margin-bottom: 2rem;
+}
+
+main .first-impression button.partiamo {
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+/* SECTION: ADVANTAGES */
+
+main .advantages {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+main .advantages .advantage:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+main .advantages .advantage .title {
+    color: blue;
+}
+
+/* SECTION: GUARANTEE */
+
+main .guarantee {
+  padding: 3rem 2rem;
+  color: white;
+  background-color: #f04c2f;
+  text-align: center;
+}
+
+main .guarantee .heading {
+    margin-bottom: 2rem;
+}
+
+main .guarantee .promise {
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+main .guarantee .ceo-contents {
+    line-height: 2rem;
+}
+
+
+main .guarantee .ceo-contents .ceo-name {
+    font-size: 1.5rem;
+}
+
+main .guarantee .ceo-contents .ceo-name {
+    font-size: 1.5rem;
+}
+
+main .guarantee .ceo-contents .ceo-definition {
+    font-size: 0.8rem;
+}
+
+/* SECTION: FEATURES */
+
+main .features {
+    padding-inline: 1rem;
+    padding-block: 3rem;
+}
+
+
+main .features .feature-card {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 0.3rem;
+}
+
+main .features .feature-card:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+
+main .features .feature-card .media img {
+    width: 100%;
+}
+
+
+main .features .feature-card .content {
+    padding-inline: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+}
+
+main .features .feature-card .content .title {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: blue;
+}
+
+
+/************** 
+/************** FOOTER */
+
+footer {
+    background-color: aqua;
+    color: white;
+    padding-inline: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+
+footer .heading {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+footer .info {
+    margin-bottom: 2rem;
+}
+
+footer .line {
+    width: 70%;
+    border-bottom: 1px solid white;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+
+footer .copyright {
+    font-size: 0.8rem;
+}
