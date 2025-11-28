@@ -179,30 +179,34 @@ main .guarantee .ceo-contents .ceo-definition {
 /* SECTION: FEATURES */
 
 main .features {
-  padding-inline: 1rem;
-  padding-block: 3rem;
+  padding-inline: 6rem;
+  padding-block: 8rem;
 }
 
 main .features .feature-card {
   text-align: center;
   border: 1px solid #dee1e3;
   border-radius: 0.3rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
   display: inline-block;
   width: 30%;
+  min-width: 500px;
+  /*
   margin: auto;
-  min-width: 200px;
-  max-width: 300px;
+  max-width: 300px; */
   /* height: 300px; */
 }
 
-main .features .feature-card:not(:last-child) {
-  margin-bottom: 2rem;
-  margin-left: 2rem;
-}
+/* main .features .feature-card {
+  height: 40%; 
+} */
 
 main .features .feature-card .media img {
   width: 100%;
-  object-fit: cover;
+  /* height: 100%; */
+  /* aspect-ratio: calc(); */
+  /* object-fit: cover; */
 }
 
 main .features .feature-card .content {
