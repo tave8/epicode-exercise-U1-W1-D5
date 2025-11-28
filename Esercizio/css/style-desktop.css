@@ -1,0 +1,273 @@
+/************* 
+/************** GENERIC SETTINGS  */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65rem;
+  color: #393d41;
+}
+
+/* utility */
+.red-border {
+  border: 1px solid red;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.5rem;
+  color: #25a2c3;
+}
+
+.title-small {
+  color: #25a6cb;
+  font-weight: bold;
+}
+
+.button-orange {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f04c2f;
+  font-weight: bold;
+  color: white;
+  border: 0px;
+  border-radius: 0.3rem;
+}
+
+.icon-white {
+  color: white;
+}
+
+/************** 
+/************** HEADER */
+
+header {
+  height: 30px;
+  text-align: center;
+  background-color: black;
+  /* padding-inline: 3rem; */
+  padding-block: 2rem;
+  padding-left: 2rem;
+  /* padding: ; */
+}
+
+header .logo {
+  height: 35px;
+  /* max-width: 300px; */
+  display: block;
+  /* margin: auto; */
+  /* margin-bottom: -10px; */
+}
+
+/************** 
+*************** MAIN */
+
+/* SECTION: FIRST IMPRESSION */
+
+main .first-impression {
+  /* min-height: 30rem; */
+  text-align: center;
+  padding-inline: 15rem;
+  padding-block: 10rem;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main .first-impression .title-contents {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+main .first-impression .title-contents p {
+  line-height: 3rem;
+  font-size: 3rem;
+}
+
+main .first-impression .statement {
+  margin-bottom: 2rem;
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+main .first-impression button.partiamo {
+  text-transform: uppercase;
+  padding-block: 1rem;
+  padding-inline: 1.3rem;
+  font-size: 1.1rem;
+}
+
+/* SECTION: ADVANTAGES */
+
+main .advantages {
+  text-align: center;
+  padding: 10rem 5rem;
+}
+
+main .advantages > *:not(:last-child) {
+  margin-right: 4rem;
+}
+
+main .advantages .media {
+  display: inline-block;
+}
+
+main .advantages .media img {
+  border-radius: 50%;
+}
+
+main .advantages .advantages-list {
+  display: inline-block;
+  text-align: left;
+  max-width: 500px;
+}
+
+main .advantages .advantage:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+main .advantages .advantage .title {
+  margin-bottom: 1rem;
+}
+
+main .advantages .advantage img {
+  width: 70%;
+  max-width: 300px;
+  border-radius: 50%;
+  margin-top: 1.5rem;
+}
+
+/* SECTION: GUARANTEE */
+
+main .guarantee {
+  padding-block: 7rem;
+  padding-inline: 8rem;
+  color: white;
+  background-color: #f04c2f;
+  text-align: center;
+}
+
+main .guarantee .heading {
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 2rem;
+}
+
+main .guarantee .promise {
+  margin-bottom: 2rem;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+main .guarantee .ceo-contents {
+  line-height: 2rem;
+}
+
+main .guarantee .ceo-contents .ceo-name {
+  font-size: 1.5rem;
+}
+
+main .guarantee .ceo-contents .ceo-name {
+  font-size: 1.5rem;
+}
+
+main .guarantee .ceo-contents .ceo-definition {
+  font-size: 0.8rem;
+}
+
+/* SECTION: FEATURES */
+
+main .features {
+  padding-inline: 1rem;
+  padding-block: 3rem;
+}
+
+main .features .feature-card {
+  text-align: center;
+  border: 1px solid #dee1e3;
+  border-radius: 0.3rem;
+  display: inline-block;
+  width: 30%;
+  margin: auto;
+  min-width: 200px;
+  max-width: 300px;
+  /* height: 300px; */
+}
+
+main .features .feature-card:not(:last-child) {
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+main .features .feature-card .media img {
+  width: 100%;
+  object-fit: cover;
+}
+
+main .features .feature-card .content {
+  padding-inline: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+main .features .feature-card .content .title {
+  margin-bottom: 1rem;
+}
+
+/************** 
+/************** FOOTER */
+
+footer {
+  color: #c8e7f0;
+  background-color: #2c9eca;
+  padding-inline: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+footer a {
+  color: #c8e7f0;
+  text-decoration: underline;
+}
+
+footer .heading {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+footer .info {
+  font-size: 1.5rem;
+  /* display: block; */
+  margin: auto;
+  width: 30%;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid white;
+}
+
+footer .info p {
+  text-align: left;
+}
+
+footer .info p:not(:last-child) {
+  margin-bottom: 0.9rem;
+}
+
+/* footer .line {
+  width: 30%;
+  border-bottom: 1px solid white;
+  margin-bottom: 2rem;
+  display: inline-block;
+} */
+
+footer .copyright {
+  margin-top: 3rem;
+}
+
+footer .copyright p {
+  font-size: 1rem;
+}
