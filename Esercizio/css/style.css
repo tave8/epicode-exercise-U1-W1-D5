@@ -1,6 +1,6 @@
 /************* 
 /************** GENERIC SETTINGS  */
-
+ 
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
@@ -27,7 +27,7 @@ body {
 
 .button-orange {
   font-family: "Montserrat", sans-serif;
-  background-color: #f04c2f;
+  background-color: #E52C0E; 
   font-weight: bold;
   color: white;
   border: 0px;
@@ -55,7 +55,7 @@ header .logo {
   max-width: 300px;
   display: block;
   margin: auto;
-  margin-bottom: -10px;
+  /* margin-bottom: -10px; */
 }
 
 /************** 
@@ -74,12 +74,13 @@ main .first-impression {
 main .first-impression .title-contents {
   margin-top: 1.5rem;
   margin-bottom: 2rem;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 main .first-impression .title-contents p {
   line-height: 3rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 main .first-impression .statement {
@@ -123,7 +124,7 @@ main .guarantee {
   padding-block: 3.5rem 2rem;
   padding-inline: 2rem;
   color: white;
-  background-color: #f04c2f;
+  background-color: #E52C0E;
   text-align: center;
 }
 
@@ -158,7 +159,7 @@ main .guarantee .ceo-contents .ceo-definition {
 /* SECTION: FEATURES */
 
 main .features {
-  padding-inline: 1rem;
+  padding-inline: 2rem;
   padding-block: 3rem;
 }
 
@@ -192,10 +193,11 @@ main .features .feature-card .content .title {
 footer {
   color: #c8e7f0;
   background-color: #2c9eca;
-  padding-inline: 2rem;
+  padding-inline: 2.5rem;
   padding-top: 3rem;
-  padding-bottom: 5rem;
+  padding-bottom: 6rem;
   text-align: center;
+  font-size: .8rem;
 }
 
 footer a {
@@ -206,7 +208,7 @@ footer a {
 footer .heading {
   font-family: "Montserrat", sans-serif;
   color: white;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2.2rem;
   margin-bottom: 2.5rem;
 }
@@ -227,6 +229,6 @@ footer .line {
   display: inline-block;
 }
 
-footer .copyright p {
+footer .copyright {
   font-size: 1rem;
 }
